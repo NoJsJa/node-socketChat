@@ -1,0 +1,21 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>socket.io.chat</title>
+        <!--不是本地文件-->
+        <script src="/socket.io/socket.io.js"></script>
+        <script type="text/javascript" src="./chat.js"></script>
+        <link rel="stylesheet" href="./chat.css">
+    </head>
+
+    <body>
+        <div id="chat">
+            <ul id="messages"></ul>
+            <form id="form">
+                <input type="text" id="input" name="input">
+                <input type="button" value="Send" id="submit">
+            </form>
+        </div>
+    </body>
+</html>
